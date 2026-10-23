@@ -1,0 +1,197 @@
+{
+ "frame": "3556MR1025170721700585C00_DXXX",
+ "units": "EDR pixels, 2x2 binned (native = 2x); image frame (y down); *_cart = standard Cartesian (y up)",
+ "edges": {
+  "upper_edge": {
+   "n": 58,
+   "ang_img": 27.424619674682617,
+   "ang_img_ci95": [
+    25.266564750671385,
+    28.731643295288084
+   ],
+   "ang_cart": -27.424619674682617,
+   "rms_binned_px": 0.8973041377060004,
+   "rise_20_80_native_px": 2.8000000000000016,
+   "line": [
+    526.481689453125,
+    476.78863525390625,
+    0.8876175284385681,
+    0.4605812430381775
+   ]
+  },
+  "lower_left_edge": {
+   "n": 60,
+   "ang_img": 62.83157730102539,
+   "ang_img_ci95": [
+    61.2848560333252,
+    63.78871726989746
+   ],
+   "ang_cart": -62.83157730102539,
+   "rms_binned_px": 0.8629153487007764,
+   "rise_20_80_native_px": 3.600000000000004,
+   "line": [
+    516.3438720703125,
+    480.3630065917969,
+    0.4566076397895813,
+    0.8896681666374207
+   ]
+  }
+ },
+ "edge_convergence_deg": 35.40695762634277,
+ "edge_convergence_ci95": [
+  33.57129535675049,
+  37.838100814819335
+ ],
+ "apex_of_edges": [
+  510.1636459569228,
+  468.3212666895956
+ ],
+ "ellipse_fits": {
+  "A": {
+   "desc": "crisp arc against the lit body (170-300 deg)",
+   "n": 59,
+   "xc": 535.1168823242188,
+   "yc": 494.146484375,
+   "a": 10.700451850891113,
+   "b": 9.465703010559082,
+   "b_over_a": 0.8846077850227227,
+   "phi_img": 106.37469100952148,
+   "phi_cart": 73.62530899047852,
+   "a_ci95": [
+    9.712432765960694,
+    12.694382882118221
+   ],
+   "b_ci95": [
+    7.932503581047058,
+    10.685741353034972
+   ],
+   "phi_boot_ci95": [
+    83.40108833312988,
+    124.08705596923828
+   ]
+  },
+  "B": {
+   "desc": "left 'C' arc (90-300 deg)",
+   "n": 94,
+   "xc": 533.854736328125,
+   "yc": 492.65753173828125,
+   "a": 9.979175567626953,
+   "b": 7.671084880828857,
+   "b_over_a": 0.7687092815276564,
+   "phi_img": 126.97958755493164,
+   "phi_cart": 53.02041244506836,
+   "a_ci95": [
+    9.867295098304748,
+    10.069058823585511
+   ],
+   "b_ci95": [
+    7.529987454414368,
+    7.768631863594055
+   ],
+   "phi_boot_ci95": [
+    124.67012939453124,
+    129.18591022491455
+   ]
+  },
+  "full": {
+   "desc": "full dark-blob outline incl. shadow bulge (0-360 deg)",
+   "n": 149,
+   "xc": 534.80078125,
+   "yc": 492.97625732421875,
+   "a": 9.893879890441895,
+   "b": 8.842597961425781,
+   "b_over_a": 0.893744219592587,
+   "phi_img": 154.88440704345703,
+   "phi_cart": 25.11559295654297,
+   "a_ci95": [
+    9.590000867843628,
+    10.237318062782288
+   ],
+   "b_ci95": [
+    8.686451315879822,
+    8.980868434906006
+   ],
+   "phi_boot_ci95": [
+    142.84709367752075,
+    164.6593765258789
+   ]
+  }
+ },
+ "orthogonality_test": {
+  "predicted_phi_img": 117.42461967468262,
+  "predicted_phi_cart": 62.57538032531738,
+  "measured_phi_img_arcB": 126.97958755493164,
+  "gap_arcB_deg": 9.554967880249023,
+  "by_arc": {
+   "A": {
+    "best_phi_img": 12.0,
+    "rms_min": 0.06236665061752756,
+    "rms_at_prediction": 0.06409202422151326,
+    "consistent_phi_img_range": [
+     0.0,
+     177.0
+    ],
+    "n_consistent_gridvalues": 50,
+    "n_grid": 60,
+    "is_prediction_within_tolerance": true
+   },
+   "B": {
+    "best_phi_img": 126.0,
+    "rms_min": 0.18172228944413008,
+    "rms_at_prediction": 0.262654783168821,
+    "consistent_phi_img_range": [
+     33.0,
+     132.0
+    ],
+    "n_consistent_gridvalues": 8,
+    "n_grid": 60,
+    "is_prediction_within_tolerance": false
+   }
+  }
+ },
+ "scale": {
+  "camera_elevation_deg": -21.8436,
+  "camera_azimuth_deg": 227.6092,
+  "depression_at_object_deg": 23.513642635692946,
+  "assumed_camera_height_m": [
+   1.9,
+   2.1,
+   2.3
+  ],
+  "slant_range_m": [
+   4.762293649186191,
+   5.263587717521579,
+   5.764881785856967
+  ],
+  "mm_per_native_px": [
+   0.35240973003977805,
+   0.3895054910965968,
+   0.42660125215341554
+  ],
+  "face_major_diameter_native_px": 39.91670227050781,
+  "face_major_diameter_mm": [
+   14.067034271227854,
+   15.547774720830787,
+   17.028515170433717
+  ],
+  "face_minor_diameter_mm": [
+   10.813459807860482,
+   11.951718735003691,
+   13.0899776621469
+  ],
+  "visible_length_native_px": 56.586217403180434,
+  "visible_length_mm": [
+   19.941533599027007,
+   22.04064239892459,
+   24.139751198822168
+  ],
+  "note": "Pixel scale = IFOV x slant range. Range follows from camera height and pointing; verified only to ~15 percent."
+ },
+ "lighting": {
+  "solar_azimuth_deg": 186.8169,
+  "solar_elevation_deg": 69.8224,
+  "shadow_azimuth_deg": 6.816900000000032,
+  "shadow_bearing_rel_camera_heading_deg": 139.20770000000005,
+  "expected_shadow_length_over_height": 0.3674845464356363
+ }
+}
